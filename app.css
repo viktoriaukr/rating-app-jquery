@@ -1,0 +1,11 @@
+#rating-app {
+  display: block;
+}
+
+input {
+  width: 200px;
+  margin: 7px;
+}
+button {
+  margin-left: 7px;
+}

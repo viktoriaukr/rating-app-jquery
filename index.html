@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="title-list"></div>
+    <form id="rating-app">
+      <div>
+        <div>Enter the name of the movie you want to rate here:</div>
+        <input type="text" placeholder="Title" id="title" />
+      </div>
+      <div>
+        <div>You can rate the movie from 0 to 10:</div>
+        <input
+          type="number"
+          min="0"
+          max="10"
+          placeholder="Rating"
+          id="rating"
+        />
+      </div>
+    </form>
+    <button type="button">Submit!</button>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
