@@ -1,7 +1,7 @@
 $("button").on("click", function () {
   let title = $("#title").val();
   let rating = $("#rating").val();
-  let movie = $("<div class='movie-title'></div>").text(`${title} ${rating}`);
+  let movie = $("<div></div>").text(`${title} ${rating}`);
   let deleteBtn = $("<button class='btn'>X</button>");
   movie.append(deleteBtn);
   $("#title-list").append(movie);
